@@ -141,10 +141,8 @@
   /* ── Pricing ──────────────────────────────────────────────── */
   .pricing {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px;
-    max-width: 760px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
   }
   .plan {
     background: var(--surface);
@@ -282,7 +280,7 @@
       reais e trata seu foco como o ativo escasso que é.
     </p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="#pricing">
+      <a class="btn btn-primary" href="https://pay.kiwify.com.br/leg87MS">
         Assinar Pro <small>· R$ 19,90/mês</small>
       </a>
       <!-- TODO: trocar pelo link de release do GitHub -->
@@ -378,7 +376,7 @@
       </div>
 
       <div class="plan pro">
-        <h3>Pro</h3>
+        <h3>Pro <span style="font-size:13px;color:var(--text-mute);font-weight:400;">mensal</span></h3>
         <div class="price">R$ 19,90<small> /mês</small></div>
         <p class="tagline">Tudo liberado. 7 dias grátis pra testar.</p>
         <ul>
@@ -391,9 +389,27 @@
           <li>Projetos / tags ilimitados</li>
           <li>Histórico ilimitado</li>
         </ul>
-        <!-- TODO: trocar pelo link de checkout do Kiwify -->
-        <a class="btn btn-primary" href="https://kiwify.com.br">
-          Assinar Pro
+        <a class="btn btn-primary" href="https://pay.kiwify.com.br/leg87MS">
+          Assinar mensal
+        </a>
+      </div>
+
+      <div class="plan pro" style="border-color: var(--warn); box-shadow: 0 0 0 4px rgba(251,191,36,.06);">
+        <h3 style="display:flex;align-items:center;gap:8px;">
+          Pro <span style="font-size:13px;color:var(--text-mute);font-weight:400;">anual</span>
+          <span style="font-size:10px;background:var(--warn);color:#0b0f0d;padding:3px 8px;border-radius:4px;font-weight:800;letter-spacing:.05em;">25% OFF</span>
+        </h3>
+        <div class="price">R$ 179<small> /ano · ~R$ 14,92/mês</small></div>
+        <p class="tagline">Mesmo plano Pro. 2 meses grátis pagando à vista.</p>
+        <ul>
+          <li>Tudo do plano Pro mensal</li>
+          <li>Pague 1× e esquece por 12 meses</li>
+          <li>Economiza R$ 59,80 vs. mensalidade</li>
+          <li>Mesmo trial de 7 dias grátis</li>
+          <li>Mesmas atualizações e suporte</li>
+        </ul>
+        <a class="btn btn-primary" style="background: var(--warn);" href="https://pay.kiwify.com.br/AboNnb3">
+          Assinar anual
         </a>
       </div>
     </div>

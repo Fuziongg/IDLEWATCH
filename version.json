@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "url": "https://github.com/Fuziongg/IDLEWATCH-Timer/releases/latest/download/IDLEWATCH-Setup.exe",
-  "notes": "Squads agora aceita desafios com data de início e fim! Modal de criação repaginado e tour atualizado!"
+  "notes": "Squads com design repaginado, correção do crash ao trocar de tema e melhorias na unificação de sessões duplicadas."
 }

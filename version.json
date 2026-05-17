@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "url": "https://github.com/Fuziongg/IDLEWATCH-Timer/releases/latest/download/IDLEWATCH-Setup.exe",
-  "notes": "Otimização e reorganização, inglês implementado"
+  "notes": "Modo Gelo/Vela (cronômetro vira cubo derretendo ou vela apagando, clique na vela apaga/acende pra pausar), tela única de início, Configurações reorganizadas com página Início e atalhos."
 }
